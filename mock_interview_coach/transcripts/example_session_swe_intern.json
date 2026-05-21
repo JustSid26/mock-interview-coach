@@ -1,0 +1,53 @@
+{
+  "session_id": "example_20250521_demo",
+  "config": {
+    "role": "Software Engineering Intern",
+    "background": "CS student, built a React todo app and a Python Flask API for a class project.",
+    "focus": "mixed",
+    "min_turns": 5,
+    "max_turns": 5
+  },
+  "status": "completed",
+  "current_difficulty": "medium",
+  "topics_covered": ["project ownership", "debugging", "team conflict"],
+  "detected_weaknesses": [
+    "Limited metrics when describing impact",
+    "Vague tradeoff discussion on caching"
+  ],
+  "average_score": 6.2,
+  "turns": [
+    {
+      "turn_number": 1,
+      "question": "Tell me about a project you're proud of and your specific contribution.",
+      "question_intent": "project ownership",
+      "difficulty": "easy",
+      "candidate_answer": "I built a todo app with React for the frontend. My teammate did some backend work. Users could add tasks and mark them done.",
+      "evaluation": {
+        "overall_score": 5.8,
+        "follow_up_recommended": true,
+        "difficulty_adjustment": "maintain"
+      },
+      "orchestrator_decision": {
+        "action": "follow_up",
+        "reasoning": "Minimum turns not met; probing depth and ownership"
+      }
+    },
+    {
+      "turn_number": 2,
+      "question": "What was the hardest technical problem you personally solved on that project?",
+      "question_intent": "debugging",
+      "difficulty": "medium",
+      "candidate_answer": "State updates weren't reflecting — I fixed it by lifting state and using a single source of truth in the parent component.",
+      "evaluation": {
+        "overall_score": 7.1,
+        "follow_up_recommended": false,
+        "difficulty_adjustment": "increase"
+      },
+      "orchestrator_decision": {
+        "action": "new_topic",
+        "reasoning": "Adequate answer — moving to new topic"
+      }
+    }
+  ],
+  "_note": "Truncated example for README walkthrough; live sessions save full evaluation objects."
+}

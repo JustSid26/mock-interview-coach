@@ -1,0 +1,271 @@
+{
+  "session_id": "20260521_135919",
+  "config": {
+    "role": "data science",
+    "background": "",
+    "focus": "mixed",
+    "min_turns": 5,
+    "max_turns": 5
+  },
+  "status": "completed",
+  "current_difficulty": "easy",
+  "topics_covered": [
+    "Data Analysis Methodology",
+    "Data Exploration and Variable Identification"
+  ],
+  "detected_weaknesses": [
+    "Lack of response",
+    "Failure to address the question",
+    "Unprofessional tone",
+    "Lack of meaningful response",
+    "Unprofessional communication"
+  ],
+  "average_score": 0.0,
+  "coach_feedback": "# Mock Interview Debrief\n\n## Overall Summary\nThe mock interview session did not yield meaningful responses to the questions posed, indicating significant areas for improvement in communication, technical accuracy, and overall interview readiness. The candidate failed to address the questions, provide clear and structured responses, and demonstrated unprofessional tone and communication throughout the session. To become interview-ready, the candidate needs to focus on developing a professional demeanor, improving technical knowledge, and practicing effective communication.\n\n## Strengths\n- None identified in this session\n\n## Areas for Improvement\n- Providing clear and concise responses to technical questions\n- Demonstrating a professional tone and communication style\n- Addressing the questions directly and thoroughly\n- Showing technical knowledge and accuracy in data science concepts\n- Structuring responses in a logical and easy-to-follow manner\n\n## Behavioral Insights\nThe candidate's behavior during the interview suggests a lack of preparation, unfamiliarity with the subject matter, or discomfort with the interview format. To improve, the candidate should focus on developing a growth mindset, preparing thoroughly for interviews, and practicing responses to common data science questions.\n\n## Technical / Role-Specific Gaps\nThe candidate did not demonstrate any technical knowledge or skills in data science, indicating significant gaps in understanding data analysis methodology, data exploration, and variable identification. To become proficient, the candidate should focus on learning and practicing data science concepts, including data analysis techniques, statistical methods, and data visualization tools.\n\n## Communication Observations\nThe candidate's communication style was unprofessional, and responses lacked clarity, coherence, and relevance to the questions asked. To improve, the candidate should practice articulating technical concepts in a clear and concise manner, using proper terminology, and demonstrating enthusiasm and interest in the subject matter.\n\n## Practice Recommendations\n1. **Develop a professional online presence**: Create a professional LinkedIn profile, and practice responding to technical questions in a professional and concise manner.\n2. **Improve technical knowledge**: Focus on learning data science concepts, including data analysis techniques, statistical methods, and data visualization tools.\n3. **Practice responding to behavioral questions**: Prepare responses to common behavioral questions, such as \"Tell me about a time when...\" or \"Can you describe a situation where...\", and practice articulating technical concepts in a clear and concise manner.\n4. **Enhance communication skills**: Practice articulating technical concepts in a clear and concise manner, using proper terminology, and demonstrating enthusiasm and interest in the subject matter.\n5. **Participate in mock interviews**: Engage in regular mock interviews to practice responding to technical questions, demonstrating a professional tone and communication style, and addressing questions directly and thoroughly.\n\n## Interview Readiness Estimate\nBased on this session, the candidate is not interview-ready for data science roles. The candidate needs significant practice and preparation to develop technical knowledge, improve communication skills, and demonstrate a professional demeanor. With focused effort and dedication, the candidate can improve their interview readiness, but it will require a substantial amount of time and practice.\n\n## Session Analytics\n| Dimension | Average |\n| --- | --- |\n| Clarity | 0.0 |\n| Technical Accuracy | 0.0 |\n| Communication | 0.0 |\n| Confidence | 0.0 |\n| Depth | 0.0 |\n| Structure | 0.0 |\n| Problem Solving | 0.0 |\n| Relevance | 0.0 |",
+  "turn_reviews": [
+    {
+      "turn_number": 1,
+      "question": "Can you walk me through your process for approaching a complex data analysis problem, from initial data exploration to final insights and recommendations?",
+      "candidate_answer": "no",
+      "intent": "Data Analysis Methodology",
+      "difficulty": "medium",
+      "score": 0.0,
+      "ideal_answer": "I start by understanding the problem, then explore data quality and distributions. Next, I apply statistical methods and visualization to identify patterns and correlations, followed by modeling and validation. Finally, I interpret results, draw insights, and provide actionable recommendations.",
+      "key_points": [
+        "Clear problem definition",
+        "Thorough data exploration",
+        "Methodical approach to analysis and modeling"
+      ]
+    },
+    {
+      "turn_number": 2,
+      "question": "You didn't provide a response to the initial question about your approach to complex data analysis. Can you start by describing the first step you would typically take when faced with a complex data set, and then outline the subsequent steps you would follow to ensure a thorough analysis?",
+      "candidate_answer": "nah",
+      "intent": "Data Analysis Methodology",
+      "difficulty": "medium",
+      "score": 0.0,
+      "ideal_answer": "When faced with a complex data set, my first step is to define the problem and identify key objectives. I then proceed to data cleaning, exploratory data analysis, and feature engineering. Subsequent steps include model selection, training, and validation, followed by interpretation and communication of results.",
+      "key_points": [
+        "Define problem and objectives",
+        "Data cleaning and exploratory analysis",
+        "Model selection and validation"
+      ]
+    },
+    {
+      "turn_number": 3,
+      "question": "I want to give you another chance to provide a meaningful response. Let's break it down further. What specific aspects of a complex data set would you focus on during the initial exploration phase, and how would you determine the next steps in your analysis?",
+      "candidate_answer": "lol",
+      "intent": "Data Analysis Methodology",
+      "difficulty": "medium",
+      "score": 0.0,
+      "ideal_answer": "During initial exploration, I focus on data quality, distribution, and relationships between variables. I use summary statistics, visualizations, and correlation analysis to understand the data's structure and identify potential issues or insights.",
+      "key_points": [
+        "Data quality checks",
+        "Distribution and summary statistics",
+        "Relationships between variables"
+      ]
+    },
+    {
+      "turn_number": 4,
+      "question": "Let's start with the basics. When exploring a complex data set, what methods or techniques do you use to identify key variables, and how do you prioritize them for further analysis?",
+      "candidate_answer": "nah",
+      "intent": "Data Exploration and Variable Identification",
+      "difficulty": "medium",
+      "score": 0.0,
+      "ideal_answer": "I use techniques like correlation analysis, feature importance from random forests, and mutual information to identify key variables. I prioritize them based on their impact on the target variable, data quality, and business relevance.",
+      "key_points": [
+        "Correlation analysis",
+        "Feature importance",
+        "Business relevance"
+      ]
+    },
+    {
+      "turn_number": 5,
+      "question": "Let's start with the basics. When exploring a complex data set, what methods or techniques do you use to identify key variables, and how do you prioritize them for further analysis?",
+      "candidate_answer": "nah",
+      "intent": "Data Exploration and Variable Identification",
+      "difficulty": "medium",
+      "score": 0.0,
+      "ideal_answer": "I use techniques like correlation analysis, principal component analysis, and mutual information to identify key variables. I prioritize them based on their correlation with the target variable, information gain, and domain knowledge. This helps me to focus on the most relevant variables for further analysis.",
+      "key_points": [
+        "Correlation analysis",
+        "Dimensionality reduction techniques",
+        "Domain knowledge application"
+      ]
+    }
+  ],
+  "turns": [
+    {
+      "turn_number": 1,
+      "question": "Can you walk me through your process for approaching a complex data analysis problem, from initial data exploration to final insights and recommendations?",
+      "question_intent": "Data Analysis Methodology",
+      "difficulty": "medium",
+      "candidate_answer": "no",
+      "evaluation": {
+        "scores": {
+          "clarity": 0.0,
+          "technical_accuracy": 0.0,
+          "communication": 0.0,
+          "confidence": 0.0,
+          "depth": 0.0,
+          "structure": 0.0,
+          "problem_solving": 0.0,
+          "relevance": 0.0
+        },
+        "overall_score": 0.0,
+        "strengths": [],
+        "weaknesses": [
+          "Lack of response",
+          "Failure to address the question"
+        ],
+        "follow_up_recommended": true,
+        "follow_up_focus": "Please provide a step-by-step approach to complex data analysis",
+        "difficulty_adjustment": "maintain"
+      },
+      "orchestrator_decision": {
+        "action": "follow_up",
+        "reasoning": "Minimum turns not met; probing: Please provide a step-by-step approach to complex data analysis",
+        "probe_deeper": true,
+        "change_topic": false
+      }
+    },
+    {
+      "turn_number": 2,
+      "question": "You didn't provide a response to the initial question about your approach to complex data analysis. Can you start by describing the first step you would typically take when faced with a complex data set, and then outline the subsequent steps you would follow to ensure a thorough analysis?",
+      "question_intent": "Data Analysis Methodology",
+      "difficulty": "medium",
+      "candidate_answer": "nah",
+      "evaluation": {
+        "scores": {
+          "clarity": 0.0,
+          "technical_accuracy": 0.0,
+          "communication": 0.0,
+          "confidence": 0.0,
+          "depth": 0.0,
+          "structure": 0.0,
+          "problem_solving": 0.0,
+          "relevance": 0.0
+        },
+        "overall_score": 0.0,
+        "strengths": [],
+        "weaknesses": [
+          "Lack of response",
+          "Unprofessional tone"
+        ],
+        "follow_up_recommended": true,
+        "follow_up_focus": "Provide a clear and structured approach to complex data analysis",
+        "difficulty_adjustment": "maintain"
+      },
+      "orchestrator_decision": {
+        "action": "follow_up",
+        "reasoning": "Minimum turns not met; probing: Provide a clear and structured approach to complex data analysis",
+        "probe_deeper": true,
+        "change_topic": false
+      }
+    },
+    {
+      "turn_number": 3,
+      "question": "I want to give you another chance to provide a meaningful response. Let's break it down further. What specific aspects of a complex data set would you focus on during the initial exploration phase, and how would you determine the next steps in your analysis?",
+      "question_intent": "Data Analysis Methodology",
+      "difficulty": "medium",
+      "candidate_answer": "lol",
+      "evaluation": {
+        "scores": {
+          "clarity": 0.0,
+          "technical_accuracy": 0.0,
+          "communication": 0.0,
+          "confidence": 0.0,
+          "depth": 0.0,
+          "structure": 0.0,
+          "problem_solving": 0.0,
+          "relevance": 0.0
+        },
+        "overall_score": 0.0,
+        "strengths": [],
+        "weaknesses": [
+          "Lack of meaningful response",
+          "Unprofessional communication"
+        ],
+        "follow_up_recommended": true,
+        "follow_up_focus": "Provide a clear and structured approach to exploring a complex data set",
+        "difficulty_adjustment": "maintain"
+      },
+      "orchestrator_decision": {
+        "action": "follow_up",
+        "reasoning": "Minimum turns not met; probing: Provide a clear and structured approach to exploring a complex data set",
+        "probe_deeper": true,
+        "change_topic": false
+      }
+    },
+    {
+      "turn_number": 4,
+      "question": "Let's start with the basics. When exploring a complex data set, what methods or techniques do you use to identify key variables, and how do you prioritize them for further analysis?",
+      "question_intent": "Data Exploration and Variable Identification",
+      "difficulty": "medium",
+      "candidate_answer": "nah",
+      "evaluation": {
+        "scores": {
+          "clarity": 0.0,
+          "technical_accuracy": 0.0,
+          "communication": 0.0,
+          "confidence": 0.0,
+          "depth": 0.0,
+          "structure": 0.0,
+          "problem_solving": 0.0,
+          "relevance": 0.0
+        },
+        "overall_score": 0.0,
+        "strengths": [],
+        "weaknesses": [
+          "Lack of meaningful response",
+          "Unprofessional communication",
+          "Failure to address the question"
+        ],
+        "follow_up_recommended": true,
+        "follow_up_focus": "Encourage the candidate to provide a specific, technical response to the question about identifying key variables in a complex data set",
+        "difficulty_adjustment": "decrease"
+      },
+      "orchestrator_decision": {
+        "action": "follow_up",
+        "reasoning": "Minimum turns not met; probing: Encourage the candidate to provide a specific, technical response to the question about identifying key variables in a complex data set",
+        "probe_deeper": true,
+        "change_topic": false
+      }
+    },
+    {
+      "turn_number": 5,
+      "question": "Let's start with the basics. When exploring a complex data set, what methods or techniques do you use to identify key variables, and how do you prioritize them for further analysis?",
+      "question_intent": "Data Exploration and Variable Identification",
+      "difficulty": "medium",
+      "candidate_answer": "nah",
+      "evaluation": {
+        "scores": {
+          "clarity": 0.0,
+          "technical_accuracy": 0.0,
+          "communication": 0.0,
+          "confidence": 0.0,
+          "depth": 0.0,
+          "structure": 0.0,
+          "problem_solving": 0.0,
+          "relevance": 0.0
+        },
+        "overall_score": 0.0,
+        "strengths": [],
+        "weaknesses": [
+          "Lack of meaningful response",
+          "Failure to address the question",
+          "Unprofessional communication"
+        ],
+        "follow_up_recommended": true,
+        "follow_up_focus": "Provide a basic outline of data exploration techniques and variable prioritization",
+        "difficulty_adjustment": "decrease"
+      },
+      "orchestrator_decision": {
+        "action": "follow_up",
+        "reasoning": "Minimum turns not met; probing: Provide a basic outline of data exploration techniques and variable prioritization",
+        "probe_deeper": true,
+        "change_topic": false
+      }
+    }
+  ]
+}
