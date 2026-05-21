@@ -93,7 +93,7 @@ Edit `.env` and set `GROQ_API_KEY`.
 | Variable | Required | Description |
 |----------|----------|-------------|
 | `GROQ_API_KEY` | Yes | Groq API key |
-| `GROQ_MODEL` | No | Default `llama-3.1-8b-instant` |
+| `GROQ_MODEL` | Yes | Default `llama-3.3-70b-versatile` |
 | `GROQ_FALLBACK_MODEL` | No | Auto-retry model on rate limit (429) |
 | `GROQ_TIMEOUT_SEC` | No | Request timeout in seconds (default `45`) |
 
