@@ -1,0 +1,106 @@
+{
+    "session_id": "candidate_strong_20260522",
+    "config": {
+      "role": "Software Engineering Intern",
+      "background": "Built scalable full-stack university and hackathon projects using React, Flask, PostgreSQL, and Docker.",
+      "focus": "mixed",
+      "min_turns": 5,
+      "max_turns": 5
+    },
+    "status": "completed",
+    "current_difficulty": "hard",
+    "topics_covered": [
+      "project ownership",
+      "system design",
+      "debugging",
+      "performance optimization",
+      "team collaboration"
+    ],
+    "detected_weaknesses": [
+      "Could quantify business impact more precisely",
+      "Sometimes over-engineers early solutions"
+    ],
+    "average_score": 8.9,
+    "turns": [
+      {
+        "turn_number": 1,
+        "question": "Tell me about a technical project you're most proud of and your specific contribution.",
+        "question_intent": "project ownership",
+        "difficulty": "medium",
+        "candidate_answer": "I led development of a smart portfolio management platform using Flask and React. I designed the backend APIs, implemented JWT authentication, and optimized database queries. I also coordinated task distribution for a 4-person team and handled deployment using Docker.",
+        "evaluation": {
+          "overall_score": 8.7,
+          "follow_up_recommended": false,
+          "difficulty_adjustment": "increase"
+        },
+        "orchestrator_decision": {
+          "action": "new_topic",
+          "reasoning": "Strong ownership and technical clarity demonstrated"
+        }
+      },
+      {
+        "turn_number": 2,
+        "question": "How did you design the backend architecture for scalability?",
+        "question_intent": "system design",
+        "difficulty": "hard",
+        "candidate_answer": "I separated authentication, portfolio tracking, and analytics into modular services. I used PostgreSQL indexing for frequently queried stock data and implemented caching for repeated portfolio calculations. Docker containers simplified deployment consistency.",
+        "evaluation": {
+          "overall_score": 9.1,
+          "follow_up_recommended": false,
+          "difficulty_adjustment": "maintain"
+        },
+        "orchestrator_decision": {
+          "action": "new_topic",
+          "reasoning": "Good understanding of modular backend architecture"
+        }
+      },
+      {
+        "turn_number": 3,
+        "question": "Describe a difficult bug you faced and how you resolved it.",
+        "question_intent": "debugging",
+        "difficulty": "hard",
+        "candidate_answer": "Our frontend charts occasionally displayed stale portfolio data. I traced the issue to asynchronous API calls resolving out of order. I fixed it by introducing request cancellation and centralized state management using React Context.",
+        "evaluation": {
+          "overall_score": 9.0,
+          "follow_up_recommended": false,
+          "difficulty_adjustment": "maintain"
+        },
+        "orchestrator_decision": {
+          "action": "new_topic",
+          "reasoning": "Strong debugging methodology and root-cause analysis"
+        }
+      },
+      {
+        "turn_number": 4,
+        "question": "What performance optimizations did you implement in your applications?",
+        "question_intent": "performance optimization",
+        "difficulty": "hard",
+        "candidate_answer": "I reduced API response time by optimizing SQL joins and adding indexes to heavily accessed tables. On the frontend, I used lazy loading and memoization to minimize unnecessary renders.",
+        "evaluation": {
+          "overall_score": 8.8,
+          "follow_up_recommended": false,
+          "difficulty_adjustment": "maintain"
+        },
+        "orchestrator_decision": {
+          "action": "new_topic",
+          "reasoning": "Shows practical optimization knowledge with concrete techniques"
+        }
+      },
+      {
+        "turn_number": 5,
+        "question": "Tell me about a disagreement within your team and how you handled it.",
+        "question_intent": "team collaboration",
+        "difficulty": "medium",
+        "candidate_answer": "A teammate wanted to directly connect the frontend to the database for speed during development, but I argued for maintaining API abstraction. I explained the long-term maintainability and security concerns, and we agreed on using mock APIs for faster testing instead.",
+        "evaluation": {
+          "overall_score": 8.9,
+          "follow_up_recommended": false,
+          "difficulty_adjustment": "maintain"
+        },
+        "orchestrator_decision": {
+          "action": "complete",
+          "reasoning": "Candidate consistently demonstrated strong technical and collaboration skills"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,108 @@
+{
+    "session_id": "candidate_weak_20260522",
+    "config": {
+      "role": "Software Engineering Intern",
+      "background": "Completed a few basic coursework projects in Python and HTML/CSS.",
+      "focus": "mixed",
+      "min_turns": 5,
+      "max_turns": 5
+    },
+    "status": "completed",
+    "current_difficulty": "easy",
+    "topics_covered": [
+      "project ownership",
+      "problem solving",
+      "debugging",
+      "communication",
+      "learning mindset"
+    ],
+    "detected_weaknesses": [
+      "Very shallow technical explanations",
+      "Poor ownership clarity",
+      "Unable to explain tradeoffs",
+      "Weak debugging process"
+    ],
+    "average_score": 4.3,
+    "turns": [
+      {
+        "turn_number": 1,
+        "question": "Tell me about a project you've worked on recently.",
+        "question_intent": "project ownership",
+        "difficulty": "easy",
+        "candidate_answer": "I made a website for college with my friends. It showed weather details and clothing suggestions.",
+        "evaluation": {
+          "overall_score": 4.5,
+          "follow_up_recommended": true,
+          "difficulty_adjustment": "maintain"
+        },
+        "orchestrator_decision": {
+          "action": "follow_up",
+          "reasoning": "Need more clarity on individual contribution"
+        }
+      },
+      {
+        "turn_number": 2,
+        "question": "What part of the project did you personally build?",
+        "question_intent": "project ownership",
+        "difficulty": "easy",
+        "candidate_answer": "I mostly helped with coding and fixing errors when things were not working.",
+        "evaluation": {
+          "overall_score": 3.9,
+          "follow_up_recommended": true,
+          "difficulty_adjustment": "decrease"
+        },
+        "orchestrator_decision": {
+          "action": "follow_up",
+          "reasoning": "Ownership remains vague"
+        }
+      },
+      {
+        "turn_number": 3,
+        "question": "Can you describe one specific bug you fixed?",
+        "question_intent": "debugging",
+        "difficulty": "easy",
+        "candidate_answer": "The API was not working correctly sometimes. I checked the code and eventually fixed it.",
+        "evaluation": {
+          "overall_score": 4.0,
+          "follow_up_recommended": true,
+          "difficulty_adjustment": "maintain"
+        },
+        "orchestrator_decision": {
+          "action": "follow_up",
+          "reasoning": "No debugging methodology or technical detail provided"
+        }
+      },
+      {
+        "turn_number": 4,
+        "question": "How did you communicate with teammates during the project?",
+        "question_intent": "communication",
+        "difficulty": "easy",
+        "candidate_answer": "We used WhatsApp and met in college sometimes to discuss tasks.",
+        "evaluation": {
+          "overall_score": 4.8,
+          "follow_up_recommended": false,
+          "difficulty_adjustment": "maintain"
+        },
+        "orchestrator_decision": {
+          "action": "new_topic",
+          "reasoning": "Basic collaboration answer accepted"
+        }
+      },
+      {
+        "turn_number": 5,
+        "question": "What technical skill are you currently trying to improve?",
+        "question_intent": "learning mindset",
+        "difficulty": "easy",
+        "candidate_answer": "I want to improve DSA and learn more about backend development because I feel less confident there.",
+        "evaluation": {
+          "overall_score": 4.5,
+          "follow_up_recommended": false,
+          "difficulty_adjustment": "maintain"
+        },
+        "orchestrator_decision": {
+          "action": "complete",
+          "reasoning": "Interview completed with consistently low technical depth"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,108 @@
+{
+    "session_id": "candidate_edgecase_20260522",
+    "config": {
+      "role": "Software Engineering Intern",
+      "background": "Strong theoretical knowledge, multiple tutorials completed, limited real-world project execution.",
+      "focus": "mixed",
+      "min_turns": 5,
+      "max_turns": 5
+    },
+    "status": "completed",
+    "current_difficulty": "medium",
+    "topics_covered": [
+      "project ownership",
+      "theoretical knowledge",
+      "tradeoffs",
+      "communication",
+      "adaptability"
+    ],
+    "detected_weaknesses": [
+      "Overly theoretical responses",
+      "Avoids direct ownership claims",
+      "Limited real implementation experience",
+      "Answers sometimes drift off-topic"
+    ],
+    "average_score": 6.5,
+    "turns": [
+      {
+        "turn_number": 1,
+        "question": "Tell me about a project where you had significant responsibility.",
+        "question_intent": "project ownership",
+        "difficulty": "medium",
+        "candidate_answer": "I explored building a microservices-based ecommerce system after studying distributed systems concepts. I mainly focused on understanding architecture patterns and researching scalability approaches.",
+        "evaluation": {
+          "overall_score": 6.1,
+          "follow_up_recommended": true,
+          "difficulty_adjustment": "maintain"
+        },
+        "orchestrator_decision": {
+          "action": "follow_up",
+          "reasoning": "Candidate discussed concepts more than implementation"
+        }
+      },
+      {
+        "turn_number": 2,
+        "question": "What parts of the system did you actually implement yourself?",
+        "question_intent": "project ownership",
+        "difficulty": "medium",
+        "candidate_answer": "I implemented authentication and experimented with API gateway routing locally, though some planned services were incomplete.",
+        "evaluation": {
+          "overall_score": 6.4,
+          "follow_up_recommended": false,
+          "difficulty_adjustment": "maintain"
+        },
+        "orchestrator_decision": {
+          "action": "new_topic",
+          "reasoning": "Partial ownership clarified"
+        }
+      },
+      {
+        "turn_number": 3,
+        "question": "When would you choose caching over database optimization?",
+        "question_intent": "tradeoffs",
+        "difficulty": "medium",
+        "candidate_answer": "Caching is useful when read frequency is high, but database optimization is important because eventually systems become bottlenecked. It depends on scaling requirements and CAP theorem considerations.",
+        "evaluation": {
+          "overall_score": 6.7,
+          "follow_up_recommended": true,
+          "difficulty_adjustment": "maintain"
+        },
+        "orchestrator_decision": {
+          "action": "follow_up",
+          "reasoning": "Answer contains theory but lacks practical examples"
+        }
+      },
+      {
+        "turn_number": 4,
+        "question": "Describe a time you received critical feedback from a teammate or mentor.",
+        "question_intent": "communication",
+        "difficulty": "medium",
+        "candidate_answer": "A mentor told me I sometimes focus too much on architecture discussions before building an MVP. Since then, I try to prototype features earlier before optimizing design.",
+        "evaluation": {
+          "overall_score": 7.0,
+          "follow_up_recommended": false,
+          "difficulty_adjustment": "increase"
+        },
+        "orchestrator_decision": {
+          "action": "new_topic",
+          "reasoning": "Good self-awareness and growth mindset shown"
+        }
+      },
+      {
+        "turn_number": 5,
+        "question": "If you joined a fast-moving startup tomorrow, how would you adapt quickly?",
+        "question_intent": "adaptability",
+        "difficulty": "hard",
+        "candidate_answer": "I would first understand the product architecture and team workflows, then prioritize delivering small functional features quickly. I learn fast through documentation, debugging existing systems, and pairing with experienced developers.",
+        "evaluation": {
+          "overall_score": 6.9,
+          "follow_up_recommended": false,
+          "difficulty_adjustment": "maintain"
+        },
+        "orchestrator_decision": {
+          "action": "complete",
+          "reasoning": "Candidate shows promise but lacks extensive execution experience"
+        }
+      }
+    ]
+  }
